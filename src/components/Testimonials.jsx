@@ -1,18 +1,18 @@
 import React from 'react'
 import { Section } from './common/Section'
-import avatar from "../assets/avatar.png"
+import avatar from "../assets/avatar2.png"
 
 export const Testimonials = () => {
     const TESTIMONIALS = [
         {
             id:1,
             image: avatar,
-            names:"john Doe",
+            names:"Harsh Arora",
             comment: "A testimonial is an honest endorsement of your product or service that usuallyexperienced success as a result of the work you did for them",
         },{
             id:2,
             image: avatar,
-            names:"Rahul",
+            names:"Rahul Verma",
             comment: "A testimonial is an honest endorsement of your product or service that usuallyexperienced success as a result of the work you did for them",
         },{
             id:3,
@@ -27,7 +27,7 @@ export const Testimonials = () => {
         },
     ]
   return (
-    <Section title="Testimonials 🤟" subtitle="hello i M HrmN I m the owner of the facebooka nd tomorrwo i ma going to uy bugatti">
+    <Section title="Testimonials 🤟" subtitle="See what Others Say abou My work">
 
         <div className='max-w-xl flex flex-col gap-8'>
             {TESTIMONIALS.map(({id,image,names,comment}) =>(

@@ -15,55 +15,53 @@ export const Portfolio = () => {
         {
             id:1,
             image: p1,
-            title:"Best App",
-            github:"https://github.com/nodejs/node",
+            title:"My Portfolio",
+            github:"https://github.com/hrmnarora",
             demo: "https://mdoejs.org/en/",
         },
         {
             id:2,
             image: p2,
-            title:"Best App",
+            title:"YouTube Clone",
 
-            github:"https://github.com/nodejs/node",
+            github:"https://github.com/hrmnarora",
             demo: "https://mdoejs.org/en/",
         },
         {
             id:3,
             image: p3,
-            title:"Best App",
+            title:"Notes App",
 
-            github:"https://github.com/nodejs/node",
+            github:"https://github.com/hrmnarora",
             demo: "https://mdoejs.org/en/",
         },
         {
             id:4,
             image: p4,
-            title:"Best App",
+            title:"Murds Music",
             
             github:"https://github.com/nodejs/node",
-            demo: "https://mdoejs.org/en/",
+            demo: "https://glistening-travesseiro-ca1119.netlify.app/",
         },
         {
             id:5,
             image: p5,
-            title:"Best App",
+            title:"Human Store",
 
             github:"https://github.com/nodejs/node",
-            demo: "https://mdoejs.org/en/",
+            demo: "https://glistening-travesseiro-ca1119.netlify.app/",
         },
         {
             id:6,
             image: p6,
-            title:"Best App",
+            title:"Movie App",
 
             github:"https://github.com/nodejs/node",
-            demo: "https://mdoejs.org/en/",
+            demo: "https://glistening-travesseiro-ca1119.netlify.app/",
         },
     ]
   return (
-    <Section title="Portfolio 🧑" subtitle="adipisicing
-    elit. Modi repellat nisi vero excepturi rerum. vero excepturi rerum. Voluptatibus beatae
-    accusantium.">
+    <Section title="Projects 🧑" subtitle="Here,you can see the projects that are completely build by me.">
 
         <div className='grid gap-8 lg:gap-14 lg:grid-cols-2'>
             {projects.map(({id,image,title,github,demo})=>(

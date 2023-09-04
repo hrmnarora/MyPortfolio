@@ -1,25 +1,25 @@
 import React from "react";
 import { Section } from "./common/Section";
-import { FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import contact from "../assets/mobile.png";
 
 export const Contact = () => {
   const SOCIAL = [
     {
-      id: 1,
-      link: "https://twitter.com",
-      icon: <FaTwitter />,
-    },
-    {
-      id: 2,
-      link: "https://twitter.com",
-      icon: <FaFacebook />,
-    },
-    {
-      id: 3,
-      link: "https://twitter.com",
-      icon: <FaLinkedin />,
-    },
+        id: 1,
+        link: "https://instagram.com/hrmnarora?igshid=MzRlODBiNWFlZA==",
+        icon: <FaInstagram />,
+      },
+      {
+        id: 2,
+        link: "https://github.com/hrmnarora",
+        icon: <FaGithub />,
+      },
+      {
+        id: 3,
+        link: "https://www.linkedin.com/in/harman-arora-09834b239",
+        icon: <FaLinkedin />,
+      },
   ];
 
   return (
@@ -32,10 +32,8 @@ export const Contact = () => {
           <img src={contact} alt="Contact Info" className="w-32 h-32" />
         </div>
         <div>
-          <p className="max-w-lg md:mx-wd-lg font-extralight mt-6">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
-            reprehenderit voluptate repellat velit fugit iste repellendus
-            impedit fuga!
+          <p className="max-wd-lg md:mx-wd-lg font-extralight mt-6">
+            I will try to Reach You back as as soon as possible Drop Your <br />Details below.
           </p>
         </div>
         <div className=" flex w-full items-center justify-evenly text-3xl mt-6">

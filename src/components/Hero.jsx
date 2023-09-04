@@ -1,26 +1,27 @@
 import React from "react";
 import {
-  FaTwitter,
-  FaFacebook,
+  FaInstagram,
+  FaGithub,
   FaLinkedinIn,
   FaArrowDown,
+
 } from "react-icons/fa";
 import avatar from "../assets/avatar2.png";
 export const Hero = () => {
   const SOCIAL = [
     {
       id: 1,
-      link: "https://twitetr.com",
-      icon: <FaTwitter />,
+      link: "https://instagram.com/hrmnarora?igshid=MzRlODBiNWFlZA==",
+      icon: <FaInstagram />,
     },
     {
       id: 2,
-      link: "https://twitetr.com",
-      icon: <FaFacebook />,
+      link: "https://github.com/hrmnarora",
+      icon: <FaGithub />,
     },
     {
       id: 3,
-      link: "https://twitetr.com",
+      link: "https://www.linkedin.com/in/harman-arora-09834b239",
       icon: <FaLinkedinIn />,
     },
   ];
@@ -33,12 +34,10 @@ window.addEventListener("scroll" , function(){
 
   return (
     <section className="min-h-screen flex flex-col justify-start items-center p-5 text-center">
-      <h2 className="text-5xl text-red-600 uppercase font-bold">HARMAN</h2>
-      <h3 className="py-3 text-2xl">MERN stack Developer</h3>
+      <h2 className="text-5xl text-red-600 uppercase font-bold">HARMAN Arora</h2>
+      <h3 className="py-3 text-2xl">MERN Developer</h3>
       <p className="max-w-xl font-light text-gray-500">
-        Hello <span className="animate-pulse text-4xl">👋</span> adipisicing
-        elit. Modi repellat nisi vero excepturi rerum. Voluptatibus beatae
-        accusantium.
+        Hi <span className="animate-pulse text-4xl">👋</span> i am a beginner <b>Mern Stack Developer</b> and <b>Designer</b> <br />Scroll Down To learn More About me
       </p>
 
       {/* social icons */}

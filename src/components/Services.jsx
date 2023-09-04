@@ -33,9 +33,7 @@ export const Services = () => {
   return (
     <Section
       title="Services ⚒"
-      subtitle="adipisicing
-        elit. Modi repellat nisi vero excepturi rerum. vero excepturi rerum. Voluptatibus beatae
-        accusantium."
+      subtitle="I provide the below given Services and I always try to provide the best results."
     >
         <div className="grid gap-10 lg:grid-cols-2">
             {services.map(({id,img,title}) =>(
