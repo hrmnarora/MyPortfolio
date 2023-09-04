@@ -10,22 +10,22 @@ export const Services = () => {
   const services = [
     {
       id: 1,
-      image: commerce,
+      img: commerce,
       title: "Ecommerce Website",
     },
     {
       id: 2,
-      image: web,
+      img: web,
       title: "Web Development",
     },
     {
       id: 3,
-      image: mobile,
+      img: mobile,
       title: "Mobile Development",
     },
     {
       id: 1,
-      image: research,
+      img: research,
       title: "Rsearch and development",
     },
   ];
@@ -38,9 +38,9 @@ export const Services = () => {
         accusantium."
     >
         <div className="grid gap-10 lg:grid-cols-2">
-            {services.map(({id,image,title}) =>(
+            {services.map(({id,img,title}) =>(
                 <div key={id} className="flex flex-col items-center justify-center p-5 shadow-lg dark:shadow-gray-100 rounded-xl duration-300 ease-in-out hover:scale-110">
-                    <img src={image} alt="image" className="w-36 h-36 md:w-44 object-contain"/>
+                    <img src={img} alt="img" className="w-36 h-36 md:w-44 object-contain"/>
                     <h3 className="mt-5 text-base">{title}</h3>
                 </div>
             ))}
